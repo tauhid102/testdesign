@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import ProductHot from './ProductHot';
+import Product from '../Product/Product';
 const HotDeals = () => {
     const [product, setProducts] = useState([]);
     useEffect(() => {
@@ -14,11 +14,11 @@ const HotDeals = () => {
             <h4 className='products'>Today’s hot deals</h4>
             <div className='row row-cols-1 row-cols-md-2 row-cols-lg-5 g-4'>
                 {
-                    products.map(product => <ProductHot
+                    products.map(product => <Product
                         key={product.key}
                         product={product}
                     >
-                    </ProductHot>)
+                    </Product>)
                 }
             </div>
         </div>
