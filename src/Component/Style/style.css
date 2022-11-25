@@ -1,0 +1,28 @@
+.icon{
+   background-color: #FFAE5D;
+   justify-content: center;
+   align-items: center;
+   border-radius: 20px;
+   padding: 0px 20px;
+}
+.icon p{
+    margin-top: 14px;
+    margin-left: 5px;
+}
+.search input{
+    font-size: 16px;
+    width: 500px;
+    margin-top: 4px;
+    border: 1px solid #575757;
+    border-radius: 10px;
+    padding: 5px;
+}
+.nav-item p{
+    margin-left: 0px;
+}
+.text{
+    color: #FFAE5D;
+}
+.products{
+    border-bottom: 2px dotted orange;
+}
