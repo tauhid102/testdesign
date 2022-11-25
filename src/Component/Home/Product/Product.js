@@ -1,10 +1,9 @@
 import React from 'react';
 
 const Product = (props) => {
-    console.log(props.product);
    const {name,picture,price,discount}=props.product;
     return (
-        <div className='col-4'>
+        <div className='col'>
             <img width='50%' src={picture} alt="" srcset="" />
             <div>
                 <h6>{name}</h6>

@@ -3,7 +3,7 @@ import React from 'react';
 const ProductHot = (props) => {
     const {name,picture,price,discount}=props.product;
     return (
-        <div className='col-2'>
+        <div className='col'>
             <img width='50%' src={picture} alt="" srcset="" />
             <div>
                 <h6>{name}</h6>
